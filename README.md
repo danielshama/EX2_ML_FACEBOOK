@@ -29,11 +29,9 @@ barplot(counts, main="The most effective posts", xlab="Post Type", ylab ="Likes 
 ```
 
 
-image: ![](likes.jpeg) 
+![](likes.jpeg) 
 
 ##Conclusions
-1. The home team usually wins the game, you can see in the density graph of final results that the density on home team (2) is higher.
-2. Mostly in Halftime score , the home team leads and symmetrically have a similar chance of a tie. 
-This implies that the chances of the away team to lead in first half are significantly lower.
-
-Summary: Home teams have more confidence during the game. Away team getting tie result on the first half is a good result for the next half of the game.
+As you can see, we can clearly see the difference between types of posts. 
+There is a clear preference for the posts that contain external links (such as news, etc.). 
+Second priority is the type of video content.

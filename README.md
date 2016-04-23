@@ -13,9 +13,9 @@ require(RCurl)
 require(devtools)
 require("Rfacebook")
 ```
-
+# The Most Effective Posts
 ### Data from facebook - Last added Feeds (23/4/2016)
-##### Get only data about post-type and likes amount
+##### Get only the data about post-type and likes amount
 
 ```{ echo=FALSE}
 feeds <- getNewsfeed(token, n = 600)
@@ -24,8 +24,8 @@ posts <- subset(feeds, select = c(type, likes_count))
 
 ### Display the data on graph
 ```{echo=FALSE}
-counts <- table(posts$type)
-barplot(counts, main="The most effective posts", xlab="Post Type", ylab ="Likes Number")
+data <- table(posts$type)
+barplot(data, main="The most effective posts", xlab="Post Type", ylab ="Likes Number")
 ```
 
 

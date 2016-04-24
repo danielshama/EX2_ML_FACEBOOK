@@ -83,7 +83,5 @@ ggmap(map) + geom_point(data = total, aes(x = longitude,y = latitude, colour  = 
 ![](sat.jpeg) 
 
 ##Conclusions
-As you can see, we can clearly see the difference between types of posts. 
-There is a clear preference for the posts that contain external links (such as news, etc.). 
-Second priority is the type of video content.
-
+You can see that there is quite equal distribution of preferences, with a little preference for cats.
+Also, we see that, for example in the South America have absolute preference for cats compared to North America and Europe were split evenly. We can conclude that - As a more advanced state then has more diversity of opinion on these issues

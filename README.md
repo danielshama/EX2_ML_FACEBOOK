@@ -80,7 +80,7 @@ map <- get_map(location = c(lon = mean(total$longitude),lat = mean(total$latitud
 
 ggmap(map) + geom_point(data = total, aes(x = longitude,y = latitude, colour  = ifelse(type == "DOG",T,F), alpha = 1), size = 2 , shape = 21) + guides( fill = FALSE,alpha = FALSE,size = FALSE)
 ```
-![](sat.jpeg) 
+![](sat.png) 
 
 ##Conclusions
 You can see that there is quite equal distribution of preferences, with a little preference for cats.

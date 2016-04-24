@@ -84,4 +84,5 @@ ggmap(map) + geom_point(data = total, aes(x = longitude,y = latitude, colour  = 
 
 ##Conclusions
 You can see that there is quite equal distribution of preferences, with a little preference for cats.
-Also, we see that, for example in the South America have absolute preference for cats compared to North America and Europe were split evenly. We can conclude that - As a more advanced state then has more diversity of opinion on these issues
+Also, we see that, for example in the South America have absolute preference for cats compared to North America and Europe were split evenly. We can conclude that - As a more advanced state then has more diversity of opinion on these issues.
+Another interesting thing, you can see on the map as much the area is green there is much greater interest in animals. 
